@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="title icon" href="images/title-img.png">
+    <title>Pure Bootstrap Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+<!--Navbar > Adding background color to navbar  -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+
+<!-- Navbar logo -->
+
+      <a href="" class="navbar-brand"><i class="fa fa-child text-warning fa-2x"></i></a>
+      <button type="button"  class="navbar-toggler bg-light" data-target="#nav" data-toggle="collapse">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="nav">
+<!--Navbar links -->
+      <ul class="navbar nav">
+        <li class="nav-item active"><a href="index.html" class="nav-link text-light text-uppercase font-weight-bold px-3">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-light text-uppercase font-weight-bold px-3">Skills</a></li>
+
+<!--Adding dropdown to link  -->
+
+        <li class="nav-item dropdown"><a href="#" data-toggle="dropdown" class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle">Projects</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="">Project 1</a>
+          <a class="dropdown-item" href="">Project 2</a>
+          <a class="dropdown-item" href="">Project 3</a>
+          <a class="dropdown-item" href="">Project 4</a>
+        </div>
+      </li>
+        <li class="nav-item"><a href="#" class="nav-link text-light text-uppercase font-weight-bold px-3">Team</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-light text-uppercase font-weight-bold px-3">Contact</a></li>
+      </ul>
+
+      <!-- Search Button -->
+
+      <form class="form-inline">
+        <div class="input-group">
+          <input type="text" placeholder="Search" class="form-control ml-3">
+          <div class="input-group-append">
+            <button type="button" class="btn"><i class="fa fa-search text-muted"></i></button> 
+            <!-- class="btn btn-primary shadow-none"    this class is used to remove shadow from button-->
+          </div>
+        </div>
+      </form>
+    </div>
+    </nav>
+<!-- End of Navbar -->
+
+<!-- Banner -->
+    <section>
+      <div class="container-fluid">
+        <div class="row bg-info justify-content-center align-items-center" style="height: 100vh;">
+          <div class="col sm-10 text-center"> 
+            <h1 class="display-2 text-capitalize"><span class="text-warning">Pure Bootstrap</span>
+            <span class="text-white font-weight-bold">Website</span>
+          </h1>
+            <h2 class="font-weight-light font-italic text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+            <a href="" class="btn btn-warning btn-lg px-4 m-3">Press Here</a>
+            <a href="" class="btn btn-danger btn-lg px-4 m-3">Press Here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- End of Banner -->
+
+<!-- Skill section -->
+<section class="bg-light px-5">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col mb-4 text-center">
+        <!-- title for Skills -->
+        <h1 class="display-2 text-warning mt-5">
+          Skills
+        </h1>
+        <p class="lead text-secondary mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci odio aliquid quo cumque facilis exercitationem. </p>
+        <!-- end title -->
+      </div>     
+    </div>
+    <!-- columns for different skills -->
+    <div class="row text-center">
+      <div class="col-lg-4 col-sm-10 mb-5 mx-auto">
+      <i class="fa fa-desktop fa-5x text-warning mb-3"></i>
+      <h1 class="text-muted">Development</h1>
+      <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni harum, perferendis fugiat, a excepturi dicta optio, esse debitis voluptate adipisci quo accusantium! Amet, rerum cupiditate!</p>
+      <a href="#" class="btn btn-outline-warning">Learn More</a>
+    </div>
+    <div class="col-lg-4 col-sm-10 mb-5 mx-auto">
+      <i class="fa fa-edit fa-5x text-warning mb-3"></i>
+      <h1 class="text-muted">Design</h1>
+      <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni harum, perferendis fugiat, a excepturi dicta optio, esse debitis voluptate adipisci quo accusantium! Amet, rerum cupiditate!</p>
+      <a href="#" class="btn btn-outline-warning">Learn More</a>
+    </div>
+    <div class="col-lg-4 col-sm-10 mb-5 mx-auto">
+      <i class="fa fa-gears fa-5x text-warning mb-3"></i>
+      <h1 class="text-muted">Creativity</h1>
+      <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni harum, perferendis fugiat, a excepturi dicta optio, esse debitis voluptate adipisci quo accusantium! Amet, rerum cupiditate!</p>
+      <a href="#" class="btn btn-outline-warning">Learn More</a>
+      
+    </div>
+    </div>
+  </div>
+</section>
+<!-- End of Skill section -->
+
+<!-- Project Section -->
+<section class="bg-white px-5">
+  <div class="container-fluid">
+    <!-- project title -->
+    <div class="row">
+      <div class="col mt-3 text-center">
+        <h1 class="display-1 text-warning">Projects</h1>
+        <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+    </div>
+    <!-- title project end -->
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <img src="images/project1.jpg" class="img-thumbnail mb-3">
+        <h2 class="text-warning">Project One</h2>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+      <div class="col-lg-3 mt-3 col-sm-6">
+        <img src="images/project2.jpg" class="img-thumbnail mb-3">
+        <h2 class="text-warning">Project Two</h2>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+      <div class="col-lg-3 mt-4 col-sm-6">
+        <img src="images/project3.jpg" class="img-thumbnail mb-3">
+        <h2 class="text-warning">Project Three</h2>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+      <div class="col-lg-3 mt-5 col-sm-6">
+        <img src="images/project4.jpg" class="img-thumbnail mb-3">
+        <h2 class="text-warning">Project four</h2>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Project -->
+
+<!-- Team Section -->
+<section class="bg-secondary p-2 p-sm-5">
+  <div class="container-fluid">
+    <!-- Team title -->
+    <div class="row">
+      <div class="col mb-3 text-center">
+        <h1 class="display-1 text-warning">Team</h1>
+        <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+    </div>
+    <!-- end of team title -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+        <div class="card">
+          <img src="images/kid1.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h3 class="text-muted">Michael</h3>
+            </div>
+            <div class="card-subtitle">
+            <p class="lead text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, officiis.</p>
+            </div>
+            <div class="text-right">
+              <a href="#"><i class="fa fa-facebook fa-2x px-2 text-primary"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x px-2 text-info"></i></a>
+              <a href="#"><i class="fa fa-youtube fa-2x px-2 text-danger"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+        <div class="card">
+          <img src="images/kid2.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h3 class="text-muted">Josh</h3>
+            </div>
+            <div class="card-subtitle">
+            <p class="lead text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, officiis.</p>
+            </div>
+            <div class="text-right">
+              <a href="#"><i class="fa fa-facebook fa-2x px-2 text-primary"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x px-2 text-info"></i></a>
+              <a href="#"><i class="fa fa-youtube fa-2x px-2 text-danger"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+        <div class="card">
+          <img src="images/kid3.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h3 class="text-muted">Rose</h3>
+            </div>
+            <div class="card-subtitle">
+            <p class="lead text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, officiis.</p>
+            </div>
+            <div class="text-right">
+              <a href="#"><i class="fa fa-facebook fa-2x px-2 text-primary"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x px-2 text-info"></i></a>
+              <a href="#"><i class="fa fa-youtube fa-2x px-2 text-danger"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+<!-- End of Team -->
+<!-- Progress Section -->
+<section class="bg-white p-2 p-sm-5">
+  <div class="container-fluid">
+    <!-- Progress title -->
+    <div class="row">
+      <div class="col mb-3 text-center">
+        <h1 class="display-1 text-warning">Progress</h1>
+        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+    </div>
+    <!-- End Progress Title -->
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-10 text-secondary px-5">
+        <h2>HTML</h2>
+        <div class="progress bg-secondary mb-3">
+          <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
+        </div>
+      
+      
+        <h2>CSS</h2>
+        <div class="progress bg-secondary mb-3">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+      
+        <h2>JavaScript</h2>
+        <div class="progress bg-secondary mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+      
+        <h2>Bootstrap</h2>
+        <div class="progress bg-secondary mb-3">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+<!-- end of Progress -->
+
+<!-- Contact Us -->
+<section class="bg-light p-5 p-sm-5">
+  <div class="container-fluid">
+    <!-- Contact title -->
+    <div class="row">
+      <div class="col mb-3 text-center">
+        <h1 class="display-1 text-warning">Contact Us</h1>
+        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+      </div>
+    </div>
+    <!-- Contact title end -->
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-10">
+        <div class="text-center text-secondary">
+        <h2>Got Question ?</h2>
+        <p>Stay Connected</p>
+        </div>
+        <form class="text-muted">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email">
+          </div>
+          <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea class="form-control" id="msg" rows="3" id="msg"></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-outline-warning form-control" type="submit">Submit Question</button>
+          </div>
+        </form>
+      </div>      
+    </div>
+    </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-secondary">
+      <div class="container">
+        <!--  -->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-2 text-warning">Pure Bootstrap Project</h1>
+            <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas!</p>
+            <a href="#"><i class="fa fa-facebook text-primary fa-2x px-2 mb-3"></i></a>
+            <a href="#"><i class="fa fa-google text-danger fa-2x px-2 mb-3"></i></a>
+            <a href="#"><i class="fa fa-twitter text-info fa-2x px-2 mb-3"></i></a>
+            <a href="#"><i class="fa fa-youtube text-danger fa-2x px-2 mb-3"></i></a>
+            <p class="text-white">&copy;Copyright 2021 - Made by Swissbiz </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+
+  </body>
+</html>
+
+
+<!-- fa-2x,fa-3x is used in order to increase font-icon ...https://mdbootstrap.com/snippets/jquery/mdbootstrap/884802 -->
